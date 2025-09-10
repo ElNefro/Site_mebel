@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background: #f0e6dc;
+}
+
+header {
+    background: #71594d;
+    color: #f0e6dc;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header a:hover {
+    color: #f39c12;
+}
+
+section {
+    padding: 80px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.hero {
+    background: url('Images/Kitchen/img1.jpg') center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 200px 500px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.about {
+    text-align: center;
+    font-size: 30px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    background: #c6aa85;
+    color: #000000;
+    font-weight: bolder;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #d35400;
+}
+
+footer {
+    background: #71594d;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+main {
+    display: flex;
+    height: 600px;
+    margin: 2;
+    align-items: center;
+    justify-content:space-around;
+
+
+}
+
+.kitchen {
+    display: flex;
+    background: url('Images/Icon_kitchen.jpg') center/cover no-repeat;
+    width: 500px;
+    height: 350px;
+    border-radius: 15px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    transition: linear 0.5s;
+}
+
+.kitchen:hover {
+    width: 1000px;
+    height: 500px;
+    background: url('Images/Kitchen/img1.jpg') center/cover no-repeat;
+}
+
+.cupboard {
+    display: flex;
+    background: url('Images/Icon_cupboard.jpg') center/cover no-repeat;
+    width: 500px;
+    height: 350px;
+    border-radius: 15px;
+    padding: 10px;
+    transition: linear 0.5s;
+    align-items: center;
+    justify-content: center;
+}
+
+.cupboard:hover {
+
+    width: 1000px;
+    height: 500px;
+    background: url('Images/Cupboard/img8.jpg') center/cover no-repeat;
+}
+
+.title {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+#gellary a .title {
+  display: block;
+  transition: opacity 0.2s;
+}
+#gellary a:hover .title {
+  opacity: 0;
+}
