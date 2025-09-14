@@ -148,3 +148,33 @@ main {
 #gellary a:hover .title {
   opacity: 0;
 }
+.scroll-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 100px;
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 50%;
+  background-color: #5d493f;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,.2);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  z-index: 1000;
+  /* доступные режимы фона кнопки */
+}
+.scroll-to-top:hover {
+  background-color: #71594d;
+}
+.scroll-to-top:focus {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+.scroll-to-top.show {
+  opacity: 1;
+  transform: translateY(0);
+}
