@@ -5,6 +5,7 @@ body {
     line-height: 1.6;
     color: #333;
     background: #f0e6dc;
+    overflow-x: hidden;
 }
 
 header {
@@ -83,6 +84,7 @@ footer {
     text-align: center;
     padding: 15px;
     margin-top: 20px;
+    width: 100%;
 }
 
 html {
@@ -105,6 +107,7 @@ main {
     height: 350px;
     border-radius: 15px;
     padding: 10px;
+    text-decoration: none;
     align-items: center;
     justify-content: center;
     transition: linear 0.5s;
@@ -123,6 +126,7 @@ main {
     height: 350px;
     border-radius: 15px;
     padding: 10px;
+    text-decoration: none;
     transition: linear 0.5s;
     align-items: center;
     justify-content: center;
